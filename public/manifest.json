@@ -10,7 +10,7 @@
   "short_name": "WPP",
   "theme_color": "#26292b",
   "background_color": "#26292b",
-  "display": "browser",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/https://weather-prediction-portfolio-frontend.vercel.app/"
 }
