@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { WiRainMix } from "react-icons/wi";
 import "./index.css";
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
   const options = {
     weekday: 'long',
     day: 'numeric',
-    month: 'long', 
-    timeZone: 'UTC',  
-    locale: 'pt-BR'  
+    month: 'long',
+    timeZone: 'UTC',
+    locale: 'pt-BR'
   };
 
   const formattedDate = currentDate.toLocaleDateString(undefined, options);
@@ -33,6 +34,9 @@ function App() {
         <div className="conteinerData">
           <p className="dataAtual">{formattedDate}</p>
         </div>
+      </div>
+      <div className="conteiner">
+        <p className='climaDia'>Chuvoso <WiRainMix size={30}/></p>
       </div>
     </div>
   );
