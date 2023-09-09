@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { WiRainMix } from "react-icons/wi";
+import { WiRainMix, WiThermometer } from "react-icons/wi";
 import "./index.css";
 
 function App() {
@@ -37,6 +37,10 @@ function App() {
       </div>
       <div className="conteiner">
         <p className='climaDia'>Chuvoso <WiRainMix size={30}/></p>
+      </div>
+      <div className="conteiner">
+        <p className='temperaturaDia'>42</p>
+        <div><WiThermometer className="WiThermometer" size={50}/></div>
       </div>
     </div>
   );
