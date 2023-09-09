@@ -1,16 +1,37 @@
-*{
+* {
   background: #26292B;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.conteiner{
+.conteiner {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.cidade{
+.cidade {
   color: #FFF;
   font-style: normal;
   line-height: normal;
   margin-top: 5%;
 }
+
+.conteinerData {
+  border-radius: 42px;
+  background: #A2B2EE;
+  display: flex;
+}
+
+.dataAtual {
+  color: #26292B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  background-color: transparent;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
