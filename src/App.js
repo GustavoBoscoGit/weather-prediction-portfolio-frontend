@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { WiRainMix, WiThermometer } from "react-icons/wi";
+import { IoExpandOutline } from "react-icons/io5";
 import "./index.css";
 
 
@@ -54,6 +55,7 @@ function App() {
       </div>
       <div className="conteiner">
         <div className='cardsPrevisaoSemana'>
+          <div className='centered-label'><p className='previsaoDaSemana'>Previsão da Semana <IoExpandOutline size={20} className='IoExpandOutline'/></p></div>
           <div className='cardtestConteiner'>
             <div>
               <p className='temperaturaDiaCard'>20</p>
