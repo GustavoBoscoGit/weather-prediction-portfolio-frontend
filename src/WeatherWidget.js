@@ -5,10 +5,14 @@ import { PiWindThin } from "react-icons/pi";
 import "./index.css";
 
 function WeatherWidget() {
-    return(
-        <table className='tableTesting'>
-        <tr className='rowTesting'>
-          <td className='temperaturaDiaWidget'>27<WiThermometer className='WiThermometerWidget' size={30}/></td>
+  return (
+    <div className="conteiner">
+      <table className="tableTesting">
+        <tr className="rowTesting">
+          <td className="temperaturaDiaWidget">
+            27
+            <WiThermometer className="WiThermometerWidget" size={30} />
+          </td>
           <tr>
             <td>
               <p>Max: 30°</p>
@@ -18,27 +22,37 @@ function WeatherWidget() {
             </td>
           </tr>
         </tr>
-        <tr className='rowTesting2'>
-          <div className='dailyWeatheDetails'>
+        <tr className="rowTesting2">
+          <div className="dailyWeatheDetails">
             <td>
-              <p className='humidadeIcon'><IoWaterOutline size={30} style={{ background: 'transparent' }}/></p>
-              <p className='humidadePorcentagem'>48%</p>
-              <p className='humidadeText'>Humidade</p>
+              <p className="humidadeIcon">
+                <IoWaterOutline
+                  size={30}
+                  style={{ background: "transparent" }}
+                />
+              </p>
+              <p className="humidadePorcentagem">48%</p>
+              <p className="humidadeText">Humidade</p>
             </td>
             <td>
-              <p className='ventoIcon'><PiWindThin size={30} style={{ background: 'transparent' }}/></p>
-              <p className='ventoValor'>20km/h</p>
-              <p className='ventoText'>Vento</p>
+              <p className="ventoIcon">
+                <PiWindThin size={30} style={{ background: "transparent" }} />
+              </p>
+              <p className="ventoValor">20km/h</p>
+              <p className="ventoText">Vento</p>
             </td>
             <td>
-              <p className='precipitacaoIcon'><WiRain size={30} style={{ background: 'transparent' }}/></p>
-              <p className='precipitacaoPorcentagem'>50%</p>
-              <p className='precipitacaoText'>Precipitação</p>
+              <p className="precipitacaoIcon">
+                <WiRain size={30} style={{ background: "transparent" }} />
+              </p>
+              <p className="precipitacaoPorcentagem">50%</p>
+              <p className="precipitacaoText">Precipitação</p>
             </td>
           </div>
         </tr>
       </table>
-    );
+    </div>
+  );
 }
 
 export default WeatherWidget;
