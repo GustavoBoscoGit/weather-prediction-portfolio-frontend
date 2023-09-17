@@ -44,6 +44,137 @@
   line-height: normal;
 }
 
+.centeredTextIcon{
+  display: flex;
+  justify-content: left;
+}
+
+.WiRainMix{
+  color: #FFF;
+  vertical-align: bottom;
+}
+
+.tableTesting{
+  color: #FFF;
+}
+
+.rowTesting{
+  background-color: transparent;
+  color: #fff;
+  justify-content: space-around;
+  display: flex;
+}
+
+.temperaturaDiaWidget{
+  color: #FFF;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.rowTesting>tr>td{
+  display: flex;
+}
+
+.rowTesting>tr>td>p{
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.rowTesting2{
+  background-color: #A2B2EE;
+  width: 386px;
+  height: 144px;
+  display: flex;
+  border-radius: 42px;
+  justify-content: space-around;
+}
+
+.humidadeIcon{
+  background-color:transparent;
+  color: #26292B;
+}
+
+.humidadePorcentagem{
+  background-color: transparent;
+  color: #26292B;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.humidadeText{
+  background-color: transparent;
+  color: #26292B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.ventoIcon{
+  background-color:transparent;
+  color: #26292B;
+}
+
+.ventoValor{
+  background-color: transparent;
+  color: #26292B;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.ventoText{
+  background-color: transparent;
+  color: #26292B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.precipitacaoIcon{
+  background-color:transparent;
+  color: #26292B;
+}
+
+.precipitacaoPorcentagem{
+  background-color: transparent;
+  color: #26292B;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.precipitacaoText{
+  background-color: transparent;
+  color: #26292B;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.dailyWeatheDetails{
+  background-color: transparent;
+  color: #26292B;
+  display: flex;
+}
+
+.dailyWeatheDetails>td{
+  background-color: transparent;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
 .temperaturaDia {
   color: #FFF;
   font-size: 200px;
