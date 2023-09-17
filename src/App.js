@@ -9,7 +9,7 @@ import "./index.css";
 function App() {
   const [currentDate, setCurrentDate] = useState(new Date());
 
-  const [active, setActive] = useState("MainTemperatureWidget");
+  const [active, setActive] = useState("DetailedWidget");
 
   useEffect(() => {
     const interval = setInterval(() => {
