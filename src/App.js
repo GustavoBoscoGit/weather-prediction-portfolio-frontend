@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { WiRainMix, WiThermometer } from "react-icons/wi";
+import { WiRainMix } from "react-icons/wi";
 import { IoExpandOutline } from "react-icons/io5";
+import WeatherWidget from './WeatherWidget';
+import DayTemperatureWidget from './DayTemperatureWidget';
 import "./index.css";
 
 
 function App() {
   const [currentDate, setCurrentDate] = useState(new Date());
+
+  const [active, setActive] = useState("MainTemperatureWidget");
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -47,11 +51,17 @@ function App() {
         </div>
       </div>
       <div className="conteiner">
-        <p className='climaDia'>Chuvoso <WiRainMix size={30} /></p>
+        <div className='centeredTextIcon'><p className='climaDia'>Chuvoso <WiRainMix size={30} className='WiRainMix'/></p></div>
       </div>
       <div className="conteiner">
-        <p className='temperaturaDia'>42</p>
-        <div><WiThermometer className="WiThermometer" size={50} /></div>
+        <div onClick={() => setActive("DetailedWidget")}>
+          {active === "MainTemperatureWidget" && <DayTemperatureWidget/>}
+        </div>
+      </div>
+      <div className="conteiner">
+        <div onClick={() => setActive("MainTemperatureWidget")}>
+          {active === "DetailedWidget" && <WeatherWidget/>}
+        </div>
       </div>
       <div className="conteiner">
         <div className='cardsPrevisaoSemana'>
