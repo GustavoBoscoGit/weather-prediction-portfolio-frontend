@@ -3,6 +3,7 @@ import { WiRainMix } from "react-icons/wi";
 import { IoExpandOutline } from "react-icons/io5";
 import WeatherWidget from './WeatherWidget';
 import DayTemperatureWidget from './DayTemperatureWidget';
+// import WeekPredictionPage from './WeekPredictionPage';
 import "./index.css";
 
 
