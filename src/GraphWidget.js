@@ -2,7 +2,7 @@ import React from "react";
 import { WiThermometer } from "react-icons/wi";
 import "./index.css";
 
-function DayTemperatureWidget() {
+function GraphWidget() {
     return(
         <div className="conteiner">
             <p className='temperaturaDia'>42</p>
@@ -11,4 +11,4 @@ function DayTemperatureWidget() {
     );
 }
 
-export default DayTemperatureWidget;
+export default GraphWidget;
