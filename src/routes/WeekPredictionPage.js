@@ -24,7 +24,7 @@ function WeekPredictionPage() {
                 <div className="cardsDaSemana">
                     <div className="cardsSemanaConteiner">
                         <motion.div className="card1">
-                            <motion.h2 className="card1Title">Animation Testing</motion.h2>
+                            <motion.h2 className="card1Title">Framer Animation Testing</motion.h2>
                             <motion.div className="card1Body">
                                 <p>Test</p>
                             </motion.div>
