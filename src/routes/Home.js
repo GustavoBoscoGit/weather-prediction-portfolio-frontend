@@ -3,8 +3,6 @@ import { WiRainMix } from "react-icons/wi";
 import { IoExpandOutline } from "react-icons/io5";
 import WeatherWidget from "../WeatherWidget";
 import GraphWidget from "../GraphWidget";
-// import { Route, NavLink, HashRouter } from 'react-router-dom';
-// import WeekPredictionPage from './WeekPredictionPage';
 import "../index.css";
 import { NavLink } from 'react-router-dom';
 
