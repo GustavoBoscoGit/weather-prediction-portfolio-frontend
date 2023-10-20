@@ -330,8 +330,8 @@
 }
 
 .cardsSemanaConteiner>div{
-  width: 300px;
-  height: 100px;
+  max-width: 300px;
+  min-height: 100px;
   border-radius: 8px;
   background: #A2B2EE;
   margin-top: 7%;
@@ -339,6 +339,13 @@
 
 .cardsSemanaConteiner>div>p{
   background-color: transparent;
+}
+
+.card1{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #A2B2EE;
 }
 
 .card1Title{
@@ -349,5 +356,27 @@
 .card1Body>p{
   color: #26292B;
   background: #A2B2EE;
+  padding-top: 1rem;
+  line-height: 150%;
 }
+
+.card2{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #A2B2EE;
+}
+
+.card2Title{
+  color: #26292B;
+  background-color: transparent;
+}
+
+.card2Body>p{
+  color: #26292B;
+  background: #A2B2EE;
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
 
