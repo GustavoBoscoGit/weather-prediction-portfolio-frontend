@@ -7,8 +7,8 @@ import { useState } from "react";
 
 function WeekPredictionPage() {
 
-    const [isOpen, setIsOpen] = useState(false);
-
+    const [isOpen, setIsOpen] = useState(null);
+    var items;
 
     return(
         <div>
@@ -27,32 +27,94 @@ function WeekPredictionPage() {
             <div className="conteiner">
                 <div className="cardsDaSemana">
                     <div className="cardsSemanaConteiner">
-                        <motion.div transition={{ layout: { duration:1, type: "spring" }}} layout onClick={()=> setIsOpen(!isOpen)} className="card1">
-                            <motion.h2 layout="position" className="card1Title">Framer Motion</motion.h2>
-                            {isOpen &&(
-                                <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}} className="card1Body">
-                                    <p>
-                                        test test test test test test test test test test test test test test
-                                    </p>
-                                    <p>
-                                        test test test test test test test test test 
-                                    </p>
-                                </motion.div>
-                            )}
-                        </motion.div>
-                        <motion.div transition={{ layout: { duration:1, type: "spring" }}} layout onClick={()=> setIsOpen(!isOpen)} className="card2">
-                            <motion.h2 layout="position" className="card2Title">Framer Motion</motion.h2>
-                            {isOpen &&(
-                                <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}} className="card2Body">
-                                    <p>
-                                        test test test test test test test test test test test test test test
-                                    </p>
-                                    <p>
-                                        test test test test test test test test test 
-                                    </p>
-                                </motion.div>
-                            )}
-                        </motion.div>
+                        <motion.section transition={{ layout: { duration:1, type: "spring" }}} layout onClick={()=> setIsOpen(!isOpen)} className="sectionStyle">
+                            <motion.div className="dateStyle">
+                                <p className="conteiner">23</p>
+                                <p className="conteiner">sex</p>
+                            </motion.div>
+                            <motion.div className="card1">
+                                <motion.table layout="position">
+                                    <motion.td className="temperaturaDiaCardSemana">23°</motion.td>
+                                    <motion.td className="temperaturaDiaCardSemana">
+                                        <motion.tr>Max: 23°</motion.tr>
+                                        <motion.tr>Min: 10°</motion.tr>
+                                    </motion.td>
+                                </motion.table>
+                                {isOpen &&(
+                                    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}} className="card1Body">
+                                        <p>
+                                            test test test test test test test test test test test test test test
+                                        </p>
+                                    </motion.div>
+                                )}
+                            </motion.div>
+                        </motion.section>
+                        <motion.section transition={{ layout: { duration:1, type: "spring" }}} layout onClick={()=> setIsOpen(!isOpen)} className="sectionStyle">
+                            <motion.div className="dateStyle">
+                                <p className="conteiner">23</p>
+                                <p className="conteiner">sex</p>
+                            </motion.div>
+                            <motion.div className="card2">
+                                <motion.table layout="position">
+                                    <motion.td className="temperaturaDiaCardSemana">23°</motion.td>
+                                    <motion.td className="temperaturaDiaCardSemana">
+                                        <motion.tr>Max: 23°</motion.tr>
+                                        <motion.tr>Min: 10°</motion.tr>
+                                    </motion.td>
+                                </motion.table>
+                                {isOpen &&(
+                                    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}} className="card2Body">
+                                        <p>
+                                            test test test test test test test test test test test test test test
+                                        </p>
+                                    </motion.div>
+                                )}
+                            </motion.div>
+                        </motion.section>
+                        <motion.section transition={{ layout: { duration:1, type: "spring" }}} layout onClick={()=> setIsOpen(!isOpen)} className="sectionStyle">
+                            <motion.div className="dateStyle">
+                                <p className="conteiner">23</p>
+                                <p className="conteiner">sex</p>
+                            </motion.div>
+                            <motion.div className="card3">
+                                <motion.table layout="position">
+                                    <motion.td className="temperaturaDiaCardSemana">23°</motion.td>
+                                    <motion.td className="temperaturaDiaCardSemana">
+                                        <motion.tr>Max: 23°</motion.tr>
+                                        <motion.tr>Min: 10°</motion.tr>
+                                    </motion.td>
+                                </motion.table>
+                                {isOpen &&(
+                                    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}} className="card3Body">
+                                        <p>
+                                            test test test test test test test test test test test test test test
+                                        </p>
+                                    </motion.div>
+                                )}
+                            </motion.div>
+                        </motion.section>
+                        <motion.section transition={{ layout: { duration:1, type: "spring" }}} layout onClick={()=> setIsOpen(!isOpen)} className="sectionStyle">
+                            <motion.div className="dateStyle">
+                                <p className="conteiner">23</p>
+                                <p className="conteiner">sex</p>
+                            </motion.div>
+                            <motion.div className="card4">
+                                <motion.table layout="position">
+                                    <motion.td className="temperaturaDiaCardSemana">23°</motion.td>
+                                    <motion.td className="temperaturaDiaCardSemana">
+                                        <motion.tr>Max: 23°</motion.tr>
+                                        <motion.tr>Min: 10°</motion.tr>
+                                    </motion.td>
+                                </motion.table>
+                                {isOpen &&(
+                                    <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}} className="card4Body">
+                                        <p>
+                                            test test test test test test test test test test test test test test
+                                        </p>
+                                    </motion.div>
+                                )}
+                            </motion.div>
+                        </motion.section>
                     </div>
                 </div>
             </div>

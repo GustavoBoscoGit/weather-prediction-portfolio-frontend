@@ -345,7 +345,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #A2B2EE;
+  background: #A2B2EE; 
+  min-height: 100px;
+  max-width: 320px;
+  min-width: 200px;
+  border-radius: 5%;
+}
+.card1>table{
+  background-color: transparent;
+  margin-left: 20%;
+  display: flex;
+}
+
+.card1>table>td{
+  background-color: transparent;
+}
+
+.card1>table>td>tr{
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px;
 }
 
 .card1Title{
@@ -364,7 +385,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #A2B2EE;
+  background: #A2B2EE; 
+  min-height: 100px;
+  max-width: 320px;
+  min-width: 200px;
+  border-radius: 5%;
+}
+.card2>table{
+  background-color: transparent;
+  margin-left: 20%;
+  display: flex;
+}
+
+.card2>table>td{
+  background-color: transparent;
+}
+
+.card2>table>td>tr{
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px;
 }
 
 .card2Title{
@@ -379,4 +421,114 @@
   line-height: 150%;
 }
 
+.card3{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #A2B2EE; 
+  min-height: 100px;
+  max-width: 320px;
+  min-width: 200px;
+  border-radius: 5%;
+}
+.card3>table{
+  background-color: transparent;
+  margin-left: 20%;
+  display: flex;
+}
 
+.card3>table>td{
+  background-color: transparent;
+}
+
+.card3>table>td>tr{
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px;
+}
+
+.card3Title{
+  color: #26292B;
+  background-color: transparent;
+}
+
+.card3Body>p{
+  color: #26292B;
+  background: #A2B2EE;
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.card4{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #A2B2EE; 
+  min-height: 100px;
+  max-width: 320px;
+  min-width: 200px;
+  border-radius: 5%;
+}
+.card4>table{
+  background-color: transparent;
+  margin-left: 20%;
+  display: flex;
+}
+
+.card4>table>td{
+  background-color: transparent;
+}
+
+.card4>table>td>tr{
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px;
+}
+
+.card4Title{
+  color: #26292B;
+  background-color: transparent;
+}
+
+.card4Body>p{
+  color: #26292B;
+  background: #A2B2EE;
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.temperaturaDiaCardSemana{
+  color: #26292B;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.dateStyle{
+  width: 75px;
+  height: 75px;
+  background-color: #5F7ADB;
+  border-radius: 50%;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: -38px;
+}
+
+.dateStyle>p{
+  background-color: transparent;
+  color: #FFF;
+}
+
+.sectionStyle{
+  position: relative;
+  padding-bottom: 10px;
+}
