@@ -75,7 +75,7 @@ function WeekPredictionPage() {
                                 {isOpen &&(
                                     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}} className="cardTransitionBody">
                                         <p>
-                                            test test test test test test test test test test test test test test test
+                                            test test test test test test test test test test test test test test test test
                                         </p>
                                     </motion.div>
                                 )}
