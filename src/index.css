@@ -231,6 +231,7 @@
   line-height: normal;
   margin-left: 10px;
   margin-top: -50px;
+  text-decoration: none;
 }
 
 .IoExpandOutline{
@@ -293,4 +294,279 @@
   justify-content: center;
   align-items: center;
   align-self: center;
+}
+
+.closeIcon{
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.IoClose{
+  text-decoration: none;
+  fill: #FFF;
+}
+
+.previsaoDaSemanaText{
+  align-items: center;
+}
+
+.previsaoDaSemanaText>p{
+  color: #FFF;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 550;
+}
+
+.cardsDaSemana{
+  align-items: center;
+}
+
+.cardsSemanaConteiner{
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  flex-wrap: nowrap;
+  margin-top: 25%;
+}
+
+.cardsSemanaConteiner>div{
+  max-width: 300px;
+  min-height: 100px;
+  border-radius: 8px;
+  background: #A2B2EE;
+  margin-top: 7%;
+}
+
+.cardsSemanaConteiner>div>p{
+  background-color: transparent;
+}
+
+.card1{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #A2B2EE; 
+  min-height: 100px;
+  max-width: 320px;
+  min-width: 200px;
+  border-radius: 5%;
+}
+.card1>table{
+  background-color: transparent;
+  margin-left: 20%;
+  display: flex;
+}
+
+.card1>table>td{
+  background-color: transparent;
+}
+
+.card1>table>td>tr{
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px;
+}
+
+.card1Title{
+  color: #26292B;
+  background-color: transparent;
+}
+
+.card1Body>p{
+  color: #26292B;
+  background: #A2B2EE;
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.card2{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #A2B2EE; 
+  min-height: 100px;
+  max-width: 320px;
+  min-width: 200px;
+  border-radius: 5%;
+}
+.card2>table{
+  background-color: transparent;
+  margin-left: 20%;
+  display: flex;
+}
+
+.card2>table>td{
+  background-color: transparent;
+}
+
+.card2>table>td>tr{
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px;
+}
+
+.card2Title{
+  color: #26292B;
+  background-color: transparent;
+}
+
+.card2Body>p{
+  color: #26292B;
+  background: #A2B2EE;
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.card3{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #A2B2EE; 
+  min-height: 100px;
+  max-width: 320px;
+  min-width: 200px;
+  border-radius: 5%;
+}
+.card3>table{
+  background-color: transparent;
+  margin-left: 20%;
+  display: flex;
+}
+
+.card3>table>td{
+  background-color: transparent;
+}
+
+.card3>table>td>tr{
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px;
+}
+
+.card3Title{
+  color: #26292B;
+  background-color: transparent;
+}
+
+.card3Body>p{
+  color: #26292B;
+  background: #A2B2EE;
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.card4{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #A2B2EE; 
+  min-height: 100px;
+  max-width: 320px;
+  min-width: 200px;
+  border-radius: 5%;
+}
+.card4>table{
+  background-color: transparent;
+  margin-left: 20%;
+  display: flex;
+}
+
+.card4>table>td{
+  background-color: transparent;
+}
+
+.card4>table>td>tr{
+  background-color: transparent;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 30px;
+}
+
+.card4Title{
+  color: #26292B;
+  background-color: transparent;
+}
+
+.card4Body>p{
+  color: #26292B;
+  background: #A2B2EE;
+  padding-top: 1rem;
+  line-height: 150%;
+}
+
+.temperaturaDiaCardSemana{
+  color: #26292B;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.temperaturaDiaMaxMinCardSemana{
+  padding-top: 10px;
+}
+
+.dateStyle{
+  width: 75px;
+  height: 75px;
+  background-color: #5F7ADB;
+  border-radius: 50%;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: -38px;
+}
+
+.dateStyle>p{
+  background-color: transparent;
+  color: #FFF;
+}
+
+.sectionStyle{
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.tableCard1{
+  align-items: center;
+}
+
+.cardTransitionBody{
+  min-width: 320px;
+  background-color: #A2B2EE;
+}
+
+.cardTransitionBodyTable{
+  background-color: #A2B2EE;
+}
+
+.cardTransitionBodyTable>tr{
+  background-color: #A2B2EE;
+}
+
+.cardTransitionBodyTable>tr>td{
+  background-color: #A2B2EE;
+}
+
+.cardTransitionBodyTable>tr>td>p{
+  background-color: #A2B2EE;
+}
+
+.infoHumidadeCard{
+  background-color: transparent;
+  margin-right: 30px;
+  margin-left: 30px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
