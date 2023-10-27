@@ -509,6 +509,10 @@
   line-height: normal;
 }
 
+.temperaturaDiaMaxMinCardSemana{
+  padding-top: 10px;
+}
+
 .dateStyle{
   width: 75px;
   height: 75px;
@@ -531,4 +535,38 @@
 .sectionStyle{
   position: relative;
   padding-bottom: 10px;
+}
+
+.tableCard1{
+  align-items: center;
+}
+
+.cardTransitionBody{
+  min-width: 320px;
+  background-color: #A2B2EE;
+}
+
+.cardTransitionBodyTable{
+  background-color: #A2B2EE;
+}
+
+.cardTransitionBodyTable>tr{
+  background-color: #A2B2EE;
+}
+
+.cardTransitionBodyTable>tr>td{
+  background-color: #A2B2EE;
+}
+
+.cardTransitionBodyTable>tr>td>p{
+  background-color: #A2B2EE;
+}
+
+.infoHumidadeCard{
+  background-color: transparent;
+  margin-right: 30px;
+  margin-left: 30px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
