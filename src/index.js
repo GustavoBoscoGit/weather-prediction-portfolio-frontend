@@ -5,8 +5,8 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import{ createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./routes/Home";
-import WeekPredictionPage from './routes/WeekPredictionPage';
+import Home from "./Home";
+import WeekPredictionPage from './WeekPredictionPage';
 
 const router = createBrowserRouter([
   {
