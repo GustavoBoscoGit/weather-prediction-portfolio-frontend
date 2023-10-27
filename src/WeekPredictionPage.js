@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.css";
+import "./index.css";
 import { NavLink } from 'react-router-dom';
 import { IoClose } from "react-icons/io5";
 import { motion } from 'framer-motion';
@@ -9,7 +9,6 @@ import { IoWaterOutline } from "react-icons/io5";
 function WeekPredictionPage() {
 
     const [isOpen, setIsOpen] = useState(null);
-    var items;
 
     return(
         <div>

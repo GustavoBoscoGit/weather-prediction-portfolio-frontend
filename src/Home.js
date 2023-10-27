@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { WiRainMix } from "react-icons/wi";
 import { IoExpandOutline } from "react-icons/io5";
-import WeatherWidget from "../WeatherWidget";
-import GraphWidget from "../GraphWidget";
-import "../index.css";
+import WeatherWidget from "./WeatherWidget";
+import GraphWidget from "./GraphWidget";
+import "./index.css";
 import { NavLink } from 'react-router-dom';
 
 function Home() {
