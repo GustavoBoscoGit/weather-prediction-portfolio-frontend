@@ -6,7 +6,7 @@ import GraphWidget from "./GraphWidget";
 import "./index.css";
 import { NavLink } from 'react-router-dom';
 
-function Home() {
+function App() {
   const [currentDate, setCurrentDate] = useState(new Date());
 
   const [active, setActive] = useState("DetailedWidget");
@@ -111,4 +111,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default App;

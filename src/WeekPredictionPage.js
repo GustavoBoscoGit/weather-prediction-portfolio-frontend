@@ -2,6 +2,8 @@ import React from "react";
 import "./index.css";
 import { NavLink } from 'react-router-dom';
 import { IoClose } from "react-icons/io5";
+import { WiRain } from "react-icons/wi";
+import { PiWindThin } from "react-icons/pi";
 import { motion } from 'framer-motion';
 import { useState } from "react";
 import { IoWaterOutline } from "react-icons/io5";
@@ -44,16 +46,22 @@ function WeekPredictionPage() {
                                     <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1}} className="cardTransitionBody">
                                         <motion.table layout="position" className="cardTransitionBodyTable">
                                             <motion.tr>
-                                                <motion.td>
-                                                    <motion.p>Weather Text</motion.p>
+                                                <motion.td className="infoVentoCard">
+                                                    <motion.p className="ventoIcon"><PiWindThin size={30} style={{ background: "transparent" }} /></motion.p>
+                                                    <motion.p className="ventoValor">20km/h</motion.p>
+                                                    <motion.p className="ventoText">Vento</motion.p>
                                                 </motion.td>
                                                 <motion.td className="infoHumidadeCard">
                                                     <motion.p className="humidadeIcon"><IoWaterOutline size={30} style={{ background: "transparent" }}/></motion.p>
                                                     <motion.p className="humidadePorcentagem">48%</motion.p>
                                                     <motion.p className="humidadeText">Humidade</motion.p>  
                                                 </motion.td>
+                                                <motion.td className="infoPrecipitacaoCard">
+                                                    <motion.p className="precipitacaoIcon"><WiRain size={30} style={{ background: "transparent" }} /></motion.p>
+                                                    <motion.p className="precipitacaoPorcentagem">50%</motion.p>
+                                                    <motion.p className="precipitacaoText">Precipitação</motion.p>
+                                                </motion.td>
                                             </motion.tr>
-                                            <motion.tr></motion.tr>
                                         </motion.table>
                                     </motion.div>
                                 )}

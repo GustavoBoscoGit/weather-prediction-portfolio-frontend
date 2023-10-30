@@ -5,21 +5,19 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import{ createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./Home";
+import App from "./App";
 import WeekPredictionPage from './WeekPredictionPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home/>
+    element: <App/>
   },
   {
     path: "/semana",
     element: <WeekPredictionPage/>
   }
 ])
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
