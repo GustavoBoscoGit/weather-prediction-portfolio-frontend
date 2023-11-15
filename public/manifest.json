@@ -21,6 +21,6 @@
   "theme_color": "#26292b",
   "background_color": "#26292b",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "https://weather-prediction-portfolio-frontend.vercel.app"
+  "scope": "https://weather-prediction-portfolio-frontend.vercel.app/",
+  "start_url": "https://weather-prediction-portfolio-frontend.vercel.app/"
 }
