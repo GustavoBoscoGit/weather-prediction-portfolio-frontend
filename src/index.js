@@ -2,29 +2,31 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import{ createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./Home";
 import WeekPredictionPage from './WeekPredictionPage';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home/>
-  },
-  {
-    path: "/semana",
-    element: <WeekPredictionPage/>
-  }
-])
+const PageNotFound = () => {
+  return <h1>404 - Página não encontrada</h1>;
+};
 
-
+const App = () => {
+  return (
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/semana" element={<WeekPredictionPage />} />
+      <Route path="*" element={<PageNotFound />} />
+    </Routes>
+  );
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 
