@@ -7,6 +7,7 @@ import "./index.css";
 import { NavLink } from 'react-router-dom';
 
 function Home() {
+  
   const [currentDate, setCurrentDate] = useState(new Date());
 
   const [active, setActive] = useState("DetailedWidget");
@@ -41,11 +42,35 @@ function Home() {
 
   const formattedDate = currentDate.toLocaleDateString(undefined, options);
 
+  const [city, setCity] = useState('');
+  
+  const handleSearch = () => {
+    const APIKey = '52d00d043b05a31a967aaad360a28c91';
+    
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},BR&appid=${APIKey}`)
+      .then(response => response.json())
+      .then(json => {
+        const description = document.querySelector('.climaDia');
+        const dayTemperature = document.querySelector('.temperaturaDiaWidget');
+        const dayMaxTemperature = document.querySelector('.maxTemperature');
+        const dayMinTemperature = document.querySelector('.minTemperature');
+        const humidity = document.querySelector('.humidadePorcentagem');
+        const windSpeed = document.querySelector('.ventoValor');
+
+        dayTemperature.innerHTML = `${parseInt(json.main.temp)}`;
+        description.innerHTML = `${json.weather[0].description}`;
+        humidity.innerHTML = `${json.main.humidity}`;
+        windSpeed.innerHTML = `${parseInt(json.wind.speed)}`;
+        dayMaxTemperature.innerHTML = `${parseInt(json.main.temp_max)}`;
+        dayMinTemperature.innerHTML = `${parseInt(json.main.temp_min)}`;
+      });
+  };
   return (
     <div>
       <div className="conteiner">
-        <div className="cidade">
-          <h1>Florianópolis</h1>
+        <div className="cidade-search">
+          <input type="text" placeholder="Pesquise a Cidade" value={city} onChange={(e) => setCity(e.target.value)}/>
+          <button onClick={handleSearch}>search</button>
         </div>
       </div>
       <div className="conteiner">
@@ -56,7 +81,7 @@ function Home() {
       <div className="conteiner">
         <div className="centeredTextIcon">
           <p className="climaDia">
-            Chuvoso <WiRainMix size={30} className="WiRainMix" />
+            <WiRainMix size={30} className="WiRainMix" />
           </p>
         </div>
       </div>

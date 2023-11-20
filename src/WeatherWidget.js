@@ -10,15 +10,15 @@ function WeatherWidget() {
       <table className="tableStyle">
         <tr className="rowStyle">
           <td className="temperaturaDiaWidget">
-            27
+            
             <WiThermometer className="WiThermometerWidget" size={30}/>
           </td>
           <tr>
             <td>
-              <p>Max: 30°</p>
+              <p className="maxTemperature">Max: 30°</p>
             </td>
             <td>
-              <p>Min: 15°</p>
+              <p className="minTemperature">Min: 15°</p>
             </td>
           </tr>
         </tr>
