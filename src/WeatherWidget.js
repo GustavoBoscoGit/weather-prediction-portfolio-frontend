@@ -10,7 +10,7 @@ function WeatherWidget() {
       <table className="tableStyle">
         <tr className="rowStyle">
           <td className="temperaturaDiaWidget">
-            
+            27
             <WiThermometer className="WiThermometerWidget" size={30}/>
           </td>
           <tr>

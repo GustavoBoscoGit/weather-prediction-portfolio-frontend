@@ -11,10 +11,39 @@
 }
 
 .cidade-search {
-  color: #FFF;
   font-style: normal;
   line-height: normal;
   margin-top: 2%;
+  background-color: #5F7ADB;
+  border-radius: 42px;
+  margin-bottom: 1%;
+}
+
+.cidade-search>input {
+  color: #26292B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 2%;
+}
+
+.cidade-search>input::placeholder {
+  color: #26292B;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+}
+
+.cidade-search>button {
+  background-color: transparent;
+  border-color: transparent;
+}
+.FaSearchLocation{
+  background-color: transparent;
 }
 
 .conteinerData {

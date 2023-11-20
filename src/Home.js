@@ -5,6 +5,8 @@ import WeatherWidget from "./WeatherWidget";
 import GraphWidget from "./GraphWidget";
 import "./index.css";
 import { NavLink } from 'react-router-dom';
+import { FaSearchLocation } from "react-icons/fa";
+
 
 function Home() {
   
@@ -57,12 +59,12 @@ function Home() {
         const humidity = document.querySelector('.humidadePorcentagem');
         const windSpeed = document.querySelector('.ventoValor');
 
-        dayTemperature.innerHTML = `${parseInt(json.main.temp)}`;
+        dayTemperature.innerHTML = `${(parseInt(json.main.temp) - 273)}º`;
         description.innerHTML = `${json.weather[0].description}`;
-        humidity.innerHTML = `${json.main.humidity}`;
-        windSpeed.innerHTML = `${parseInt(json.wind.speed)}`;
-        dayMaxTemperature.innerHTML = `${parseInt(json.main.temp_max)}`;
-        dayMinTemperature.innerHTML = `${parseInt(json.main.temp_min)}`;
+        humidity.innerHTML = `${json.main.humidity}%`;
+        windSpeed.innerHTML = `${parseInt(json.wind.speed)}km/h`;
+        dayMaxTemperature.innerHTML = `${(parseInt(json.main.temp_max) - 273)}º`;
+        dayMinTemperature.innerHTML = `${(parseInt(json.main.temp_min) - 273)}º`;
       });
   };
   return (
@@ -70,7 +72,7 @@ function Home() {
       <div className="conteiner">
         <div className="cidade-search">
           <input type="text" placeholder="Pesquise a Cidade" value={city} onChange={(e) => setCity(e.target.value)}/>
-          <button onClick={handleSearch}>search</button>
+          <button onClick={handleSearch}><FaSearchLocation size={20} className="FaSearchLocation"/></button>
         </div>
       </div>
       <div className="conteiner">
@@ -81,6 +83,7 @@ function Home() {
       <div className="conteiner">
         <div className="centeredTextIcon">
           <p className="climaDia">
+            Chuvoso
             <WiRainMix size={30} className="WiRainMix" />
           </p>
         </div>
