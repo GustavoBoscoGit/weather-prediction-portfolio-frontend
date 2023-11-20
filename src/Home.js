@@ -66,6 +66,38 @@ function Home() {
         dayMaxTemperature.innerHTML = `${(parseInt(json.main.temp_max) - 273)}º`;
         dayMinTemperature.innerHTML = `${(parseInt(json.main.temp_min) - 273)}º`;
       });
+      
+      const cardDate = {
+        day: "2-digit",
+        month: "short",
+        timeZone: "UTC",
+        locale: "pt-BR",
+      };
+
+      fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city},BR&appid=${APIKey}`)
+      .then(response => response.json())
+      .then(json => {
+        const weekTemperature1 = document.querySelector('.temperaturaDiaCard1');
+        const weekTemperature2 = document.querySelector('.temperaturaDiaCard2');
+        const weekTemperature3 = document.querySelector('.temperaturaDiaCard3');
+        const weekTemperature4 = document.querySelector('.temperaturaDiaCard4');
+
+        weekTemperature1.innerHTML = `${(parseInt(json.list[0].main.temp) - 273)}º`;
+        weekTemperature2.innerHTML = `${(parseInt(json.list[10].main.temp) - 273)}º`;
+        weekTemperature3.innerHTML = `${(parseInt(json.list[20].main.temp) - 273)}º`;
+        weekTemperature4.innerHTML = `${(parseInt(json.list[30].main.temp) - 273)}º`;
+        
+        const weekDay1 = document.querySelector('.dataMesCard1');
+        const weekDay2 = document.querySelector('.dataMesCard2');
+        const weekDay3 = document.querySelector('.dataMesCard3');
+        const weekDay4 = document.querySelector('.dataMesCard4');
+
+        weekDay1.innerHTML = new Date(`${json.list[0].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
+        weekDay2.innerHTML = new Date(`${json.list[10].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
+        weekDay3.innerHTML = new Date(`${json.list[20].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
+        weekDay4.innerHTML = new Date(`${json.list[30].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
+        
+      })  
   };
   return (
     <div>
@@ -105,32 +137,32 @@ function Home() {
           </div>
           <div className="cardtestConteiner">
             <div>
-              <p className="temperaturaDiaCard">20</p>
+              <p className="temperaturaDiaCard1">20</p>
               <p className="iconeClimaDiaCard">
                 <WiRainMix size={40} style={{ background: "transparent" }} />
               </p>
-              <p className="dataMesCard">{formatedCardDate}</p>
+              <p className="dataMesCard1"></p>
             </div>
             <div>
-              <p className="temperaturaDiaCard">20</p>
+              <p className="temperaturaDiaCard2">20</p>
               <p className="iconeClimaDiaCard">
                 <WiRainMix size={40} style={{ background: "transparent" }} />
               </p>
-              <p className="dataMesCard">{formatedCardDate}</p>
+              <p className="dataMesCard2"></p>
             </div>
             <div>
-              <p className="temperaturaDiaCard">20</p>
+              <p className="temperaturaDiaCard3">20</p>
               <p className="iconeClimaDiaCard">
                 <WiRainMix size={40} style={{ background: "transparent" }} />
               </p>
-              <p className="dataMesCard">{formatedCardDate}</p>
+              <p className="dataMesCard3"></p>
             </div>
             <div>
-              <p className="temperaturaDiaCard">20</p>
+              <p className="temperaturaDiaCard4">20</p>
               <p className="iconeClimaDiaCard">
                 <WiRainMix size={40} style={{ background: "transparent" }} />
               </p>
-              <p className="dataMesCard">{formatedCardDate}</p>
+              <p className="dataMesCard4"></p>
             </div>
           </div>
         </div>
