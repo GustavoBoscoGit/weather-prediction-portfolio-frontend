@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./Home";
 import WeekPredictionPage from './WeekPredictionPage';
 
+
 const PageNotFound = () => {
   return <h1>404 - Página não encontrada</h1>;
 };

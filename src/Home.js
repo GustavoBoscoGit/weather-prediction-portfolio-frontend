@@ -30,18 +30,6 @@ function Home() {
     locale: "pt-BR",
   };
 
-  const cardDate = {
-    day: "2-digit",
-    month: "short",
-    timeZone: "UTC",
-    locale: "pt-BR",
-  };
-
-  const formatedCardDate = currentDate
-    .toLocaleDateString(undefined, cardDate)
-    .replace(" de", "")
-    .replace(".", "");
-
   const formattedDate = currentDate.toLocaleDateString(undefined, options);
 
   const [city, setCity] = useState('');
