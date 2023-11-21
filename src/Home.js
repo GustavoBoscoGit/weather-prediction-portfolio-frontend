@@ -70,7 +70,7 @@ function Home() {
         const weekTemperature3 = document.querySelector('.temperaturaDiaCard3');
         const weekTemperature4 = document.querySelector('.temperaturaDiaCard4');
 
-        weekTemperature1.innerHTML = `${(parseInt(json.list[0].main.temp) - 273)}º`;
+        weekTemperature1.innerHTML = `${(parseInt(json.list[5].main.temp) - 273)}º`;
         weekTemperature2.innerHTML = `${(parseInt(json.list[10].main.temp) - 273)}º`;
         weekTemperature3.innerHTML = `${(parseInt(json.list[20].main.temp) - 273)}º`;
         weekTemperature4.innerHTML = `${(parseInt(json.list[30].main.temp) - 273)}º`;
@@ -80,7 +80,7 @@ function Home() {
         const weekDay3 = document.querySelector('.dataMesCard3');
         const weekDay4 = document.querySelector('.dataMesCard4');
 
-        weekDay1.innerHTML = new Date(`${json.list[0].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
+        weekDay1.innerHTML = new Date(`${json.list[5].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
         weekDay2.innerHTML = new Date(`${json.list[10].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
         weekDay3.innerHTML = new Date(`${json.list[20].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
         weekDay4.innerHTML = new Date(`${json.list[30].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", "");
