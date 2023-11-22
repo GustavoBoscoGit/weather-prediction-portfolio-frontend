@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./Home";
 import WeekPredictionPage from './WeekPredictionPage';
+import { WeatherProvider } from './WeatherContext';
+
 
 const PageNotFound = () => {
   return <h1>404 - Página não encontrada</h1>;
@@ -13,11 +15,13 @@ const PageNotFound = () => {
 
 const App = () => {
   return (
-    <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route path="/semana" element={<WeekPredictionPage />} />
-      <Route path="*" element={<PageNotFound />} />
-    </Routes>
+    <WeatherProvider>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/semana" element={<WeekPredictionPage />} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </WeatherProvider>
   );
 };
 
