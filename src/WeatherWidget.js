@@ -4,7 +4,7 @@ import { IoWaterOutline } from "react-icons/io5";
 import { PiWindThin } from "react-icons/pi";
 import "./index.css";
 
-const WeatherWidget = ({ currentWeather, forecastWeather }) => {
+const WeatherWidget = ({ currentWeather }) => {
   return (
     <div className="conteiner">
       <table className="tableStyle">
