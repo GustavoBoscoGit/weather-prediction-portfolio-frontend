@@ -32,7 +32,8 @@ function Home() {
 
   const formattedDate = currentDate.toLocaleDateString(undefined, options);
 
-  const [city, setCity] = useState('');
+  const [city, setCity] = useState(localStorage.getItem('lastSearchedCity') || '');
+
   const [currentWeatherData, setCurrentWeatherData] = useState(
     JSON.parse(localStorage.getItem('currentWeather')) || null
   );
@@ -87,6 +88,7 @@ function Home() {
 
         setForecastWeatherData(forecastData);
       });
+      localStorage.setItem('lastSearchedCity', city);
   };
   return (
     <div>
@@ -113,12 +115,12 @@ function Home() {
       </div>
       <div className="conteiner">
         <div onClick={() => setActive("DetailedWidget")}>
-          {active === "MainTemperatureWidget" && <GraphWidget />}
+          {active === "MainTemperatureWidget" && <GraphWidget forecastWeather={forecastWeatherData} />}
         </div>
       </div>
       <div className="conteiner">
         <div onClick={() => setActive("MainTemperatureWidget")}>
-          {active === "DetailedWidget" && <WeatherWidget />}
+          {active === "DetailedWidget" && <WeatherWidget currentWeather={currentWeatherData} />}
         </div>
       </div>
       <div className="conteiner">
@@ -130,7 +132,7 @@ function Home() {
           <div className="cardtestConteiner">
             {forecastWeatherData.map((forecast, index) => (
             <div key={index}> 
-              <p className="temperaturaDiaCard1">{forecast.temperature}</p>
+              <p className="temperaturaDiaCard1">{forecast.temperature}º</p>
               <p className="iconeClimaDiaCard">
                 <WiRainMix size={40} style={{ background: "transparent" }} />
               </p>
