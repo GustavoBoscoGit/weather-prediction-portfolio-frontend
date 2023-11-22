@@ -81,6 +81,10 @@ function Home() {
           forecastData.push({
             temperature: parseInt(json.list[index].main.temp) - 273,
             date: new Date(`${json.list[index].dt_txt}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", ""),
+            humidity: json.list[index].main.humidity,
+            windSpeed: parseInt(json.list[index].wind.speed),
+            maxTemperature: parseInt(json.list[index].main.temp_max) - 273,
+            minTemperature: parseInt(json.list[index].main.temp_min) - 273,
           });
         });
 
