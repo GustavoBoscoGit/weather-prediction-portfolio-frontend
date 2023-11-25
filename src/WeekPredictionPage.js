@@ -107,7 +107,7 @@ const WeekPredictionPage = () => {
                 dayMinTemp={forecastDay.minTemperature}
                 windSpeed={forecastDay.windSpeed}
                 humidityPercentage={forecastDay.humidity}
-                preciptationPercentage="79%"
+                preciptationPercentage={forecastDay.precipitation}
               />
             ))
           ) : (

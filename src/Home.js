@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { WiRainMix } from "react-icons/wi";
 import { IoExpandOutline } from "react-icons/io5";
 import WeatherWidget from "./WeatherWidget";
-import GraphWidget from "./GraphWidget";
 import "./index.css";
 import { NavLink } from 'react-router-dom';
 import { FaSearchLocation } from "react-icons/fa";
@@ -43,8 +42,10 @@ function Home() {
 
   const handleSearch = () => {
     const APIKey = '52d00d043b05a31a967aaad360a28c91';
+    const floripaAPIKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0d2J1bmVkeW1pbmd5dm94ZndoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA5MzkxODAsImV4cCI6MjAxNjUxNTE4MH0.c_JE6TVKXPe0Ezi00-QrdFF5G7-ZpkZ2tT_SJuIDyyQ';
 
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},BR&appid=${APIKey}`)
+    if(city !== 'floripa api'){
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},BR&appid=${APIKey}`)
       .then(response => response.json())
       .then(json => {
         setCurrentWeatherData({
@@ -92,7 +93,52 @@ function Home() {
 
         setForecastWeatherData(forecastData);
       });
-      localStorage.setItem('lastSearchedCity', city);
+    }else{
+      fetch(`https://vtwbunedymingyvoxfwh.supabase.co/rest/v1/previsao_completa?select=*&apikey=${floripaAPIKey}`)
+      .then(response => response.json())
+      .then(json => {
+        setCurrentWeatherData({
+          temperature: parseInt(json[0]['temperatura']),
+          humidity: json[0]['umidade'],
+          windSpeed: parseInt(json[0]['velocidate_vento']),
+          maxTemperature: parseInt(json[0]['temperatura_max']),
+          minTemperature: parseInt(json[0]['temperatura_min']),
+          precipitation: json[0]['precipitacao']
+        });
+
+        localStorage.setItem('currentWeather', JSON.stringify({
+          temperature: parseInt(json[0]['temperatura']),
+          humidity: json[0]['umidade'],
+          windSpeed: parseInt(json[0]['velocidate_vento']),
+          maxTemperature: parseInt(json[0]['temperatura_max']),
+          minTemperature: parseInt(json[0]['temperatura_min']),
+          precipitation: json[0]['precipitacao']
+        }));
+      });
+
+      fetch(`https://vtwbunedymingyvoxfwh.supabase.co/rest/v1/previsao_completa?select=*&apikey=${floripaAPIKey}`)
+      .then(response => response.json())
+      .then(json => {
+        
+        const forecastData = [];
+        [5, 10, 20, 30].forEach(index => {
+          forecastData.push({
+            temperature: parseInt(json[index]['temperatura']),
+            humidity: json[index]['umidade'],
+            windSpeed: parseInt(json[index]['velocidate_vento']),
+            maxTemperature: parseInt(json[index]['temperatura_max']),
+            minTemperature: parseInt(json[index]['temperatura_min']),
+            precipitation: json[index]['precipitacao']
+          });
+        });
+
+        localStorage.setItem('forecastWeather', JSON.stringify(forecastData))
+
+        setForecastWeatherData(forecastData);
+      });
+    }
+  
+    localStorage.setItem('lastSearchedCity', city);
   };
   return (
     <div>
@@ -118,12 +164,7 @@ function Home() {
         </div>
       </div>
       <div className="conteiner">
-        <div onClick={() => setActive("DetailedWidget")}>
-          {active === "MainTemperatureWidget" && <GraphWidget forecastWeather={forecastWeatherData} />}
-        </div>
-      </div>
-      <div className="conteiner">
-        <div onClick={() => setActive("MainTemperatureWidget")}>
+        <div>
           {active === "DetailedWidget" && <WeatherWidget currentWeather={currentWeatherData} />}
         </div>
       </div>

@@ -47,7 +47,7 @@ const WeatherWidget = ({ currentWeather }) => {
             {currentWeather &&(
             <td>
               <p className="precipitacaoIcon"><WiRain size={30} style={{ background: "transparent" }} /></p>
-              <p className="precipitacaoPorcentagem">50%</p>
+              <p className="precipitacaoPorcentagem">{currentWeather.precipitation}</p>
               <p className="precipitacaoText">Precipitação</p>
             </td>
             )}

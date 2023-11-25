@@ -1,0 +1,3039 @@
+{
+  "April": [
+    {
+      "Data": "2019-04-01",
+      "precipitacao": 0.4,
+      "temperatura": 21,
+      "umidade": 73,
+      "velocidate_vento": 10,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-04-02",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 76,
+      "velocidate_vento": 10,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-04-03",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-04",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-04-05",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 76,
+      "velocidate_vento": 5,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-04-06",
+      "precipitacao": 0.4,
+      "temperatura": 22,
+      "umidade": 67,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-04-07",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 69,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-08",
+      "precipitacao": 0.5,
+      "temperatura": 23,
+      "umidade": 79,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-09",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 73,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-04-10",
+      "precipitacao": 0.6,
+      "temperatura": 22,
+      "umidade": 75,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-11",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 69,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-04-12",
+      "precipitacao": 0.5,
+      "temperatura": 19,
+      "umidade": 80,
+      "velocidate_vento": 5,
+      "temperatura_max": 19,
+      "temperatura_min": 19
+    },
+    {
+      "Data": "2019-04-13",
+      "precipitacao": 0.0,
+      "temperatura": 25,
+      "umidade": 67,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-04-14",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 13,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-15",
+      "precipitacao": 0.4,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 6,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-04-16",
+      "precipitacao": 0.2,
+      "temperatura": 21,
+      "umidade": 73,
+      "velocidate_vento": 6,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-04-17",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-18",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 69,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-19",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 78,
+      "velocidate_vento": 9,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-04-20",
+      "precipitacao": 0.5,
+      "temperatura": 25,
+      "umidade": 72,
+      "velocidate_vento": 10,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-04-21",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 73,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-22",
+      "precipitacao": 0.2,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 6,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-04-23",
+      "precipitacao": 0.4,
+      "temperatura": 21,
+      "umidade": 70,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-04-24",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-25",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-26",
+      "precipitacao": 0.3,
+      "temperatura": 24,
+      "umidade": 73,
+      "velocidate_vento": 11,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-04-27",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-04-28",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-04-29",
+      "precipitacao": 0.3,
+      "temperatura": 21,
+      "umidade": 75,
+      "velocidate_vento": 9,
+      "temperatura_max": 21,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-04-30",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 76,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    }
+  ],
+  "August": [
+    {
+      "Data": "2019-08-01",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 67,
+      "velocidate_vento": 10,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-08-02",
+      "precipitacao": 0.2,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-08-03",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 22,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-04",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-08-05",
+      "precipitacao": 1.0,
+      "temperatura": 23,
+      "umidade": 75,
+      "velocidate_vento": 13,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-06",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-07",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-08-08",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 11,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-08-09",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 11,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-08-10",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 66,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-08-11",
+      "precipitacao": 0.4,
+      "temperatura": 21,
+      "umidade": 72,
+      "velocidate_vento": 5,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-08-12",
+      "precipitacao": 0.4,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-08-13",
+      "precipitacao": 0.4,
+      "temperatura": 24,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-08-14",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-08-15",
+      "precipitacao": 0.2,
+      "temperatura": 21,
+      "umidade": 76,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-08-16",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-17",
+      "precipitacao": 0.7,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-18",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 12,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-08-19",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-08-20",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 67,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-08-21",
+      "precipitacao": 0.5,
+      "temperatura": 21,
+      "umidade": 75,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-08-22",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-23",
+      "precipitacao": 0.7,
+      "temperatura": 24,
+      "umidade": 69,
+      "velocidate_vento": 10,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-08-24",
+      "precipitacao": 0.4,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-25",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 63,
+      "velocidate_vento": 12,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-08-26",
+      "precipitacao": 0.3,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-27",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 70,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-08-28",
+      "precipitacao": 0.4,
+      "temperatura": 20,
+      "umidade": 80,
+      "velocidate_vento": 8,
+      "temperatura_max": 20,
+      "temperatura_min": 19
+    },
+    {
+      "Data": "2019-08-29",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-08-30",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 11,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-08-31",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 76,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    }
+  ],
+  "December": [
+    {
+      "Data": "2019-12-01",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 79,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-12-02",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-03",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-04",
+      "precipitacao": 0.3,
+      "temperatura": 20,
+      "umidade": 72,
+      "velocidate_vento": 7,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-12-05",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-12-06",
+      "precipitacao": 0.3,
+      "temperatura": 20,
+      "umidade": 81,
+      "velocidate_vento": 8,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-12-07",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-12-08",
+      "precipitacao": 0.5,
+      "temperatura": 23,
+      "umidade": 75,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-12-09",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 68,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-10",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-12-11",
+      "precipitacao": 0.0,
+      "temperatura": 25,
+      "umidade": 70,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-12-12",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 65,
+      "velocidate_vento": 6,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-12-13",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 73,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-14",
+      "precipitacao": 0.4,
+      "temperatura": 24,
+      "umidade": 70,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-12-15",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 68,
+      "velocidate_vento": 10,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-12-16",
+      "precipitacao": 0.2,
+      "temperatura": 21,
+      "umidade": 76,
+      "velocidate_vento": 10,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-12-17",
+      "precipitacao": 0.3,
+      "temperatura": 21,
+      "umidade": 79,
+      "velocidate_vento": 6,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-18",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 69,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-12-19",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-12-20",
+      "precipitacao": 0.4,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-21",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 11,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-22",
+      "precipitacao": 0.4,
+      "temperatura": 21,
+      "umidade": 75,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-12-23",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-12-24",
+      "precipitacao": 0.6,
+      "temperatura": 22,
+      "umidade": 68,
+      "velocidate_vento": 6,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-25",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-12-26",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 73,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-12-27",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-12-28",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 77,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-12-29",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 69,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-12-30",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 67,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-12-31",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    }
+  ],
+  "February": [
+    {
+      "Data": "2019-02-01",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 77,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-02-02",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-02-03",
+      "precipitacao": 0.2,
+      "temperatura": 24,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-04",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 69,
+      "velocidate_vento": 11,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-02-05",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 77,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-02-06",
+      "precipitacao": 0.2,
+      "temperatura": 24,
+      "umidade": 73,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-07",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 70,
+      "velocidate_vento": 11,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-02-08",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 76,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-02-09",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-10",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 78,
+      "velocidate_vento": 6,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-11",
+      "precipitacao": 0.0,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-02-12",
+      "precipitacao": 0.5,
+      "temperatura": 22,
+      "umidade": 78,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-02-13",
+      "precipitacao": 0.1,
+      "temperatura": 19,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 20,
+      "temperatura_min": 19
+    },
+    {
+      "Data": "2019-02-14",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-15",
+      "precipitacao": 0.1,
+      "temperatura": 25,
+      "umidade": 69,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-16",
+      "precipitacao": 0.4,
+      "temperatura": 25,
+      "umidade": 69,
+      "velocidate_vento": 6,
+      "temperatura_max": 26,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-02-17",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-18",
+      "precipitacao": 0.4,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-02-19",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-02-20",
+      "precipitacao": 0.4,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 10,
+      "temperatura_max": 22,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-02-21",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-22",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-02-23",
+      "precipitacao": 0.0,
+      "temperatura": 21,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-02-24",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 66,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-02-25",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-02-26",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 67,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-02-27",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 68,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-02-28",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    }
+  ],
+  "January": [
+    {
+      "Data": "2019-01-01",
+      "precipitacao": 0.2,
+      "temperatura": 21,
+      "umidade": 76,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-02",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-01-03",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-04",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-05",
+      "precipitacao": 0.2,
+      "temperatura": 25,
+      "umidade": 73,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-01-06",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 68,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-01-07",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-01-08",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-01-09",
+      "precipitacao": 1.3,
+      "temperatura": 25,
+      "umidade": 71,
+      "velocidate_vento": 9,
+      "temperatura_max": 26,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-01-10",
+      "precipitacao": 0.6,
+      "temperatura": 22,
+      "umidade": 81,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-01-11",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 69,
+      "velocidate_vento": 11,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-01-12",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 11,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-13",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-14",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-15",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-01-16",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-17",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-01-18",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 70,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-01-19",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-01-20",
+      "precipitacao": 0.0,
+      "temperatura": 21,
+      "umidade": 64,
+      "velocidate_vento": 12,
+      "temperatura_max": 22,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-01-21",
+      "precipitacao": 0.3,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-01-22",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 64,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-01-23",
+      "precipitacao": 0.4,
+      "temperatura": 22,
+      "umidade": 73,
+      "velocidate_vento": 6,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-24",
+      "precipitacao": 0.6,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-01-25",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 69,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-01-26",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 67,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-27",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-01-28",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 67,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-29",
+      "precipitacao": 0.2,
+      "temperatura": 21,
+      "umidade": 70,
+      "velocidate_vento": 8,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-01-30",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 70,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-01-31",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    }
+  ],
+  "July": [
+    {
+      "Data": "2019-07-01",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 69,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-07-02",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 67,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-07-03",
+      "precipitacao": 0.5,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-04",
+      "precipitacao": 0.5,
+      "temperatura": 25,
+      "umidade": 76,
+      "velocidate_vento": 11,
+      "temperatura_max": 26,
+      "temperatura_min": 25
+    },
+    {
+      "Data": "2019-07-05",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 69,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-07-06",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-07",
+      "precipitacao": 0.2,
+      "temperatura": 24,
+      "umidade": 76,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-07-08",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 66,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-07-09",
+      "precipitacao": 0.4,
+      "temperatura": 23,
+      "umidade": 78,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-07-10",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-07-11",
+      "precipitacao": 0.3,
+      "temperatura": 24,
+      "umidade": 64,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-07-12",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 76,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-13",
+      "precipitacao": 0.3,
+      "temperatura": 24,
+      "umidade": 74,
+      "velocidate_vento": 11,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-07-14",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 76,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-15",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 76,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-07-16",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 66,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-07-17",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-18",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 66,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-19",
+      "precipitacao": 1.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 12,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-07-20",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-21",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 69,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-07-22",
+      "precipitacao": 0.5,
+      "temperatura": 23,
+      "umidade": 79,
+      "velocidate_vento": 5,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-23",
+      "precipitacao": 0.4,
+      "temperatura": 21,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-07-24",
+      "precipitacao": 0.3,
+      "temperatura": 20,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 21,
+      "temperatura_min": 19
+    },
+    {
+      "Data": "2019-07-25",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-07-26",
+      "precipitacao": 0.4,
+      "temperatura": 25,
+      "umidade": 67,
+      "velocidate_vento": 9,
+      "temperatura_max": 26,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-07-27",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-28",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 67,
+      "velocidate_vento": 11,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-07-29",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 67,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-30",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 75,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-07-31",
+      "precipitacao": 0.0,
+      "temperatura": 21,
+      "umidade": 68,
+      "velocidate_vento": 9,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    }
+  ],
+  "June": [
+    {
+      "Data": "2019-06-01",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 68,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-02",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 68,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-03",
+      "precipitacao": 0.0,
+      "temperatura": 25,
+      "umidade": 69,
+      "velocidate_vento": 10,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-06-04",
+      "precipitacao": 0.3,
+      "temperatura": 24,
+      "umidade": 76,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-06-05",
+      "precipitacao": 0.5,
+      "temperatura": 23,
+      "umidade": 77,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-06",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 3,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-07",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 69,
+      "velocidate_vento": 11,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-06-08",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 67,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-09",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-06-10",
+      "precipitacao": 0.6,
+      "temperatura": 21,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-06-11",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 73,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-12",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 64,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-13",
+      "precipitacao": 0.8,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-14",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 75,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-15",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-16",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 66,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-17",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-18",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-19",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-20",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-06-21",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-22",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 76,
+      "velocidate_vento": 6,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-23",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 73,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-24",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 67,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-06-25",
+      "precipitacao": 0.0,
+      "temperatura": 25,
+      "umidade": 68,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-06-26",
+      "precipitacao": 0.4,
+      "temperatura": 22,
+      "umidade": 73,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-27",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 76,
+      "velocidate_vento": 10,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-28",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 69,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-06-29",
+      "precipitacao": 0.5,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-06-30",
+      "precipitacao": 0.9,
+      "temperatura": 23,
+      "umidade": 76,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    }
+  ],
+  "March": [
+    {
+      "Data": "2019-03-01",
+      "precipitacao": 0.6,
+      "temperatura": 22,
+      "umidade": 75,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-03-02",
+      "precipitacao": 0.5,
+      "temperatura": 24,
+      "umidade": 73,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-03-03",
+      "precipitacao": 0.5,
+      "temperatura": 21,
+      "umidade": 77,
+      "velocidate_vento": 9,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-03-04",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-05",
+      "precipitacao": 0.7,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-06",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 5,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-07",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 67,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-03-08",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 67,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-03-09",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 69,
+      "velocidate_vento": 13,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-10",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 70,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-11",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-12",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 65,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-03-13",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 65,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-03-14",
+      "precipitacao": 0.5,
+      "temperatura": 19,
+      "umidade": 79,
+      "velocidate_vento": 8,
+      "temperatura_max": 20,
+      "temperatura_min": 19
+    },
+    {
+      "Data": "2019-03-15",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 70,
+      "velocidate_vento": 12,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-16",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-03-17",
+      "precipitacao": 0.5,
+      "temperatura": 22,
+      "umidade": 80,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-18",
+      "precipitacao": 0.0,
+      "temperatura": 25,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 26,
+      "temperatura_min": 25
+    },
+    {
+      "Data": "2019-03-19",
+      "precipitacao": 0.7,
+      "temperatura": 23,
+      "umidade": 73,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-20",
+      "precipitacao": 0.5,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-03-21",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 5,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-22",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 76,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-23",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-24",
+      "precipitacao": 1.2,
+      "temperatura": 22,
+      "umidade": 79,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-25",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 12,
+      "temperatura_max": 23,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-03-26",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-27",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 68,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-03-28",
+      "precipitacao": 0.3,
+      "temperatura": 21,
+      "umidade": 73,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-03-29",
+      "precipitacao": 0.3,
+      "temperatura": 24,
+      "umidade": 75,
+      "velocidate_vento": 6,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-03-30",
+      "precipitacao": 0.6,
+      "temperatura": 23,
+      "umidade": 75,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-03-31",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    }
+  ],
+  "May": [
+    {
+      "Data": "2019-05-01",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 68,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-05-02",
+      "precipitacao": 0.7,
+      "temperatura": 22,
+      "umidade": 78,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-05-03",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-05-04",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-05-05",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 6,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-05-06",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-05-07",
+      "precipitacao": 0.2,
+      "temperatura": 21,
+      "umidade": 73,
+      "velocidate_vento": 7,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-05-08",
+      "precipitacao": 0.7,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 12,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-05-09",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 77,
+      "velocidate_vento": 10,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-05-10",
+      "precipitacao": 0.6,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 5,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-05-11",
+      "precipitacao": 0.2,
+      "temperatura": 24,
+      "umidade": 75,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-05-12",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-05-13",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 73,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-05-14",
+      "precipitacao": 0.3,
+      "temperatura": 21,
+      "umidade": 69,
+      "velocidate_vento": 9,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-05-15",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 74,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-05-16",
+      "precipitacao": 0.5,
+      "temperatura": 25,
+      "umidade": 69,
+      "velocidate_vento": 9,
+      "temperatura_max": 26,
+      "temperatura_min": 25
+    },
+    {
+      "Data": "2019-05-17",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-05-18",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-05-19",
+      "precipitacao": 0.3,
+      "temperatura": 21,
+      "umidade": 76,
+      "velocidate_vento": 10,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-05-20",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-05-21",
+      "precipitacao": 0.3,
+      "temperatura": 21,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-05-22",
+      "precipitacao": 0.5,
+      "temperatura": 21,
+      "umidade": 75,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-05-23",
+      "precipitacao": 0.2,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-05-24",
+      "precipitacao": 0.4,
+      "temperatura": 22,
+      "umidade": 76,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-05-25",
+      "precipitacao": 0.5,
+      "temperatura": 21,
+      "umidade": 77,
+      "velocidate_vento": 14,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-05-26",
+      "precipitacao": 0.0,
+      "temperatura": 21,
+      "umidade": 72,
+      "velocidate_vento": 6,
+      "temperatura_max": 22,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-05-27",
+      "precipitacao": 0.8,
+      "temperatura": 24,
+      "umidade": 67,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-05-28",
+      "precipitacao": 0.2,
+      "temperatura": 20,
+      "umidade": 77,
+      "velocidate_vento": 6,
+      "temperatura_max": 20,
+      "temperatura_min": 19
+    },
+    {
+      "Data": "2019-05-29",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 73,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-05-30",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-05-31",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 67,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    }
+  ],
+  "October": [
+    {
+      "Data": "2019-10-01",
+      "precipitacao": 0.5,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-02",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-03",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 76,
+      "velocidate_vento": 4,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-04",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-05",
+      "precipitacao": 0.5,
+      "temperatura": 24,
+      "umidade": 67,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-06",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-07",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-08",
+      "precipitacao": 0.2,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-09",
+      "precipitacao": 0.2,
+      "temperatura": 24,
+      "umidade": 75,
+      "velocidate_vento": 6,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-10-10",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-11",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 69,
+      "velocidate_vento": 10,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-10-12",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 65,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-13",
+      "precipitacao": 0.4,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 6,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-14",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 72,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-15",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 73,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-16",
+      "precipitacao": 0.9,
+      "temperatura": 23,
+      "umidade": 77,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-17",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-10-18",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 76,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-19",
+      "precipitacao": 0.6,
+      "temperatura": 23,
+      "umidade": 77,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-20",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 76,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-21",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-22",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-23",
+      "precipitacao": 0.4,
+      "temperatura": 22,
+      "umidade": 75,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-10-24",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 73,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-25",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 70,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-26",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-10-27",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 70,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-10-28",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 71,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-10-29",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 81,
+      "velocidate_vento": 5,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-10-30",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-10-31",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 72,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    }
+  ],
+  "September": [
+    {
+      "Data": "2019-09-01",
+      "precipitacao": 0.4,
+      "temperatura": 23,
+      "umidade": 75,
+      "velocidate_vento": 11,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-09-02",
+      "precipitacao": 0.1,
+      "temperatura": 21,
+      "umidade": 76,
+      "velocidate_vento": 9,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-09-03",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 73,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-09-04",
+      "precipitacao": 1.2,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 4,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-09-05",
+      "precipitacao": 0.1,
+      "temperatura": 22,
+      "umidade": 72,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-09-06",
+      "precipitacao": 0.3,
+      "temperatura": 23,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-09-07",
+      "precipitacao": 0.3,
+      "temperatura": 21,
+      "umidade": 72,
+      "velocidate_vento": 6,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-09-08",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 73,
+      "velocidate_vento": 8,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-09-09",
+      "precipitacao": 0.2,
+      "temperatura": 24,
+      "umidade": 74,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-09-10",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 67,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-09-11",
+      "precipitacao": 0.2,
+      "temperatura": 22,
+      "umidade": 70,
+      "velocidate_vento": 6,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-09-12",
+      "precipitacao": 0.3,
+      "temperatura": 20,
+      "umidade": 74,
+      "velocidate_vento": 9,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-09-13",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 73,
+      "velocidate_vento": 7,
+      "temperatura_max": 24,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-09-14",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 68,
+      "velocidate_vento": 10,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-09-15",
+      "precipitacao": 0.6,
+      "temperatura": 22,
+      "umidade": 74,
+      "velocidate_vento": 7,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-09-16",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 9,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-09-17",
+      "precipitacao": 0.0,
+      "temperatura": 22,
+      "umidade": 66,
+      "velocidate_vento": 10,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-09-18",
+      "precipitacao": 0.3,
+      "temperatura": 25,
+      "umidade": 64,
+      "velocidate_vento": 9,
+      "temperatura_max": 26,
+      "temperatura_min": 25
+    },
+    {
+      "Data": "2019-09-19",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 65,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-09-20",
+      "precipitacao": 0.3,
+      "temperatura": 22,
+      "umidade": 75,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-09-21",
+      "precipitacao": 0.9,
+      "temperatura": 24,
+      "umidade": 73,
+      "velocidate_vento": 9,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-09-22",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 68,
+      "velocidate_vento": 11,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-09-23",
+      "precipitacao": 0.8,
+      "temperatura": 21,
+      "umidade": 71,
+      "velocidate_vento": 9,
+      "temperatura_max": 21,
+      "temperatura_min": 20
+    },
+    {
+      "Data": "2019-09-24",
+      "precipitacao": 0.1,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-09-25",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 8,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-09-26",
+      "precipitacao": 0.5,
+      "temperatura": 23,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 23,
+      "temperatura_min": 22
+    },
+    {
+      "Data": "2019-09-27",
+      "precipitacao": 0.0,
+      "temperatura": 24,
+      "umidade": 66,
+      "velocidate_vento": 10,
+      "temperatura_max": 25,
+      "temperatura_min": 23
+    },
+    {
+      "Data": "2019-09-28",
+      "precipitacao": 0.2,
+      "temperatura": 21,
+      "umidade": 74,
+      "velocidate_vento": 8,
+      "temperatura_max": 22,
+      "temperatura_min": 21
+    },
+    {
+      "Data": "2019-09-29",
+      "precipitacao": 0.1,
+      "temperatura": 24,
+      "umidade": 71,
+      "velocidate_vento": 7,
+      "temperatura_max": 25,
+      "temperatura_min": 24
+    },
+    {
+      "Data": "2019-09-30",
+      "precipitacao": 0.0,
+      "temperatura": 23,
+      "umidade": 69,
+      "velocidate_vento": 9,
+      "temperatura_max": 24,
+      "temperatura_min": 23
+    }
+  ]
+}
