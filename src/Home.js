@@ -11,7 +11,7 @@ function Home() {
   
   const [currentDate, setCurrentDate] = useState(new Date());
 
-  const [active, setActive] = useState("DetailedWidget");
+  const [active] = useState("DetailedWidget");
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -120,11 +120,19 @@ function Home() {
       .then(response => response.json())
       .then(json => {
         
+        const cardDate = {
+          day: "2-digit",
+          month: "short",
+          timeZone: "UTC",
+          locale: "pt-BR",
+        };
+
         const forecastData = [];
-        [5, 10, 20, 30].forEach(index => {
+        [307, 308, 309, 310].forEach(index => {
           forecastData.push({
             temperature: parseInt(json[index]['temperatura']),
             humidity: json[index]['umidade'],
+            date: new Date(`${json[index]['Data']}`).toLocaleDateString(undefined, cardDate).replace(" de", "").replace(".", ""),
             windSpeed: parseInt(json[index]['velocidate_vento']),
             maxTemperature: parseInt(json[index]['temperatura_max']),
             minTemperature: parseInt(json[index]['temperatura_min']),
