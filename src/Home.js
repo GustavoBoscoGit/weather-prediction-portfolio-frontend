@@ -25,7 +25,7 @@ function Home() {
     weekday: "long",
     day: "numeric",
     month: "long",
-    timeZone: "UTC",
+    timeZone: "America/Sao_Paulo",
     locale: "pt-BR",
   };
 
@@ -166,7 +166,6 @@ function Home() {
         {currentWeatherData &&(
           <p className="climaDia">
             {currentWeatherData.description}
-            <WiRainMix size={30} className="WiRainMix" />
           </p>
         )}
         </div>
