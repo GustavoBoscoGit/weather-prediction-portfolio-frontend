@@ -288,7 +288,7 @@
   align-items: center;
   justify-content: center;
   color: #26292B;
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 550;
   line-height: normal;
@@ -308,31 +308,6 @@
   align-items: center;
   align-self: center;
 }
-
-.temperaturaDiaCard2 {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
-
-.temperaturaDiaCard3 {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
-
-.temperaturaDiaCard4 {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
-
 .iconeClimaDiaCard {
   background-color: transparent;
   display: flex;
@@ -349,29 +324,6 @@
   align-self: center;
 }
 
-.dataMesCard2 {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
-
-.dataMesCard3 {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
-
-.dataMesCard4 {
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-}
 
 .closeIcon{
   margin-left: auto;
@@ -630,7 +582,7 @@
   padding-bottom: 10px;
 }
 
-.tableCard1{
+.tableCard{
   align-items: center;
   background-color: #A2B2EE;
 }
@@ -638,6 +590,12 @@
 .cardTransitionBody{
   min-width: 320px;
   background-color: #A2B2EE;
+}
+
+.previsaoCardSemanaStyle{
+  max-width: 100px;
+  display: flex;
+  align-content: center;
 }
 
 .cardTransitionBodyTable{
@@ -658,24 +616,24 @@
 
 .infoHumidadeCard{
   background-color: transparent;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
   flex-direction: column;
   align-items: center;
 }
 
 .infoVentoCard{
   background-color: transparent;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
   flex-direction: column;
   align-items: center;
 }
 
 .infoPrecipitacaoCard{
   background-color: transparent;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 15px;
+  margin-left: 15px;
   flex-direction: column;
   align-items: center;
 }

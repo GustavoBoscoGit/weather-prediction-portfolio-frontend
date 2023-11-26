@@ -30,7 +30,7 @@ const WeekCardComponent = ({ dateOfTheDay, dayTemp, dayMaxTemp, dayMinTemp, wind
       {isActive && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }} className="cardTransitionBody">
           <motion.table layout="position" className="cardTransitionBodyTable">
-            <motion.tr>
+            <motion.tr className="previsaoCardSemanaStyle">
               <motion.td className="infoVentoCard">
                 <motion.p className="ventoIcon">
                   <PiWindThin size={30} style={{ background: "transparent" }} />
@@ -107,7 +107,7 @@ const WeekPredictionPage = () => {
                 dayMinTemp={forecastDay.minTemperature}
                 windSpeed={forecastDay.windSpeed}
                 humidityPercentage={forecastDay.humidity}
-                preciptationPercentage="79%"
+                preciptationPercentage={forecastDay.precipitation}
               />
             ))
           ) : (
