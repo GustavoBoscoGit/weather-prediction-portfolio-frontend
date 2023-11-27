@@ -65,18 +65,10 @@ registerRoute(
 // This allows the web app to trigger skipWaiting via
 // registration.waiting.postMessage({type: 'SKIP_WAITING'})
 self.addEventListener('message', (event) => {
-  // Verifica se o evento possui dados e se o tipo da mensagem é 'SKIP_WAITING'
   if (event.data && event.data.type === 'SKIP_WAITING') {
-    // Verifica a origem da mensagem
-    if (isMessageFromTrustedOrigin(event)) {
-      // Se a origem for confiável, chama a função skipWaiting()
-      self.skipWaiting();
-    } else {
-      // Se a origem não for confiável, ignora a mensagem
-      console.warn('Mensagem recebida de uma origem não confiável. Ignorando...');
-    }
+    self.skipWaiting();
   }
-  console.log(event.data);
+  console.log(event.data)
 });
 
 // Any other custom service worker logic can go here.
