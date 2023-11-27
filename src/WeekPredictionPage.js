@@ -20,11 +20,11 @@ const WeekCardComponent = ({ dateOfTheDay, dayTemp, dayMaxTemp, dayMinTemp, wind
       </motion.div>
       <motion.div className="card">
         <motion.table className="tablecard" layout="position">
-            <motion.td className="temperaturaDiaCardSemana">{dayTemp}</motion.td>
-            <motion.td className="temperaturaDiaMaxMinCardSemana">
-              <motion.tr>Max: {dayMaxTemp}</motion.tr>
-              <motion.tr>Min: {dayMinTemp}</motion.tr>
-            </motion.td>
+            <motion.td className="temperaturaDiaCardSemana">{dayTemp}º</motion.td>
+            <motion.tr className="temperaturaDiaMaxMinCardSemana">
+              <motion.tr>Max: {dayMaxTemp}º</motion.tr>
+              <motion.tr>Min: {dayMinTemp}º</motion.tr>
+            </motion.tr>
         </motion.table>
       </motion.div>
       {isActive && (

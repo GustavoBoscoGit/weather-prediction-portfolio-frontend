@@ -40,6 +40,14 @@ function Home() {
     JSON.parse(localStorage.getItem('forecastWeather')) || null
   );
 
+  const [showSearchOnly, setShowSearchOnly] = useState(true);
+
+  useEffect(() => {
+    if (currentWeatherData && forecastWeatherData) {
+      setShowSearchOnly(false);
+    }
+  }, [currentWeatherData, forecastWeatherData]);
+
   const handleSearch = () => {
     const APIKey = '52d00d043b05a31a967aaad360a28c91';
     const floripaAPIKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0d2J1bmVkeW1pbmd5dm94ZndoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDA5MzkxODAsImV4cCI6MjAxNjUxNTE4MH0.c_JE6TVKXPe0Ezi00-QrdFF5G7-ZpkZ2tT_SJuIDyyQ';
@@ -147,54 +155,71 @@ function Home() {
     }
   
     localStorage.setItem('lastSearchedCity', city);
+
   };
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
+  }
   return (
     <div>
+      {showSearchOnly ?(
       <div className="conteiner">
         <div className="cidade-search">
-          <input type="text" placeholder="Pesquise a Cidade" value={city} onChange={(e) => setCity(e.target.value)}/>
+          <input onKeyDown={handleKeyDown} type="text" placeholder="Pesquise a Cidade" value={city} onChange={(e) => setCity(e.target.value)}/>
           <button onClick={handleSearch}> <FaSearchLocation size={20} className="FaSearchLocation"/></button>
         </div>
       </div>
-      <div className="conteiner">
-        <div className="conteinerData">
-          <p className="dataAtual">{formattedDate}</p>
-        </div>
-      </div>
-      <div className="conteiner">
-        <div className="centeredTextIcon">
-        {currentWeatherData &&(
-          <p className="climaDia">
-            {currentWeatherData.description}
-          </p>
-        )}
-        </div>
-      </div>
-      <div className="conteiner">
-        <div>
-          {active === "DetailedWidget" && <WeatherWidget currentWeather={currentWeatherData} />}
-        </div>
-      </div>
-      <div className="conteiner">
-        <div className="cardsPrevisaoSemana">
-          <div className="centered-label">
-            <NavLink exact to="/semana"><p className="previsaoDaSemana">Previsão da Semana{" "}<IoExpandOutline size={20} className="IoExpandOutline" /></p></NavLink>
-          </div>
-          {forecastWeatherData && (
-          <div className="cardtestConteiner">
-            {forecastWeatherData.map((forecast, index) => (
-            <div key={index}> 
-              <p className="temperaturaDiaCard1">{forecast.temperature}º</p>
-              <p className="iconeClimaDiaCard">
-                <WiRainMix size={40} style={{ background: "transparent" }} />
-              </p>
-              <p className="dataMesCard1">{forecast.date}</p>
+      ) : (
+        <>
+          <div className="conteiner">
+            <div className="cidade-search">
+              <input onKeyDown={handleKeyDown} type="text" placeholder="Pesquise a Cidade" value={city} onChange={(e) => setCity(e.target.value)}/>
+              <button onClick={handleSearch}> <FaSearchLocation size={20} className="FaSearchLocation"/></button>
             </div>
-            ))}
           </div>
-          )}
-        </div>
-      </div>
+          <div className="conteiner">
+            <div className="conteinerData">
+              <p className="dataAtual">{formattedDate}</p>
+            </div>
+          </div>
+          <div className="conteiner">
+            <div className="centeredTextIcon">
+            {currentWeatherData &&(
+              <p className="climaDia">
+                {currentWeatherData.description}
+              </p>
+            )}
+            </div>
+          </div>
+          <div className="conteiner">
+            <div>
+              {active === "DetailedWidget" && <WeatherWidget currentWeather={currentWeatherData} />}
+            </div>
+          </div>
+          <div className="conteiner">
+            <div className="cardsPrevisaoSemana">
+              <div className="centered-label">
+                <NavLink exact to="/semana"><p className="previsaoDaSemana">Previsão da Semana{" "}<IoExpandOutline size={20} className="IoExpandOutline" /></p></NavLink>
+              </div>
+              {forecastWeatherData && (
+              <div className="cardtestConteiner">
+                {forecastWeatherData.map((forecast, index) => (
+                <div key={index}> 
+                  <p className="temperaturaDiaCard1">{forecast.temperature}º</p>
+                  <p className="iconeClimaDiaCard">
+                    <WiRainMix size={40} style={{ background: "transparent" }} />
+                  </p>
+                  <p className="dataMesCard1">{forecast.date}</p>
+                </div>
+                ))}
+              </div>
+              )}
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 }
