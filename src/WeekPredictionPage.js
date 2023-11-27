@@ -9,8 +9,6 @@ import { useState, useEffect } from "react";
 import { IoWaterOutline } from "react-icons/io5";
 
 
-
-
 const WeekCardComponent = ({ dateOfTheDay, dayTemp, dayMaxTemp, dayMinTemp, windSpeed, humidityPercentage, preciptationPercentage}) => {
   const [isActive, setIsActive] = useState(false);
   return (
