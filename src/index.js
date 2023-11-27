@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./Home";
 import WeekPredictionPage from './WeekPredictionPage';
 import { WeatherProvider } from './WeatherContext';
+import { Analytics } from '@vercel/analytics/react';
 
 
 const PageNotFound = () => {
@@ -30,6 +31,7 @@ root.render(
   <React.StrictMode>
     <Router>
       <App />
+      <Analytics />
     </Router>
   </React.StrictMode>
 );
