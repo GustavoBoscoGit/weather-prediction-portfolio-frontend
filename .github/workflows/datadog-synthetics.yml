@@ -30,5 +30,4 @@ jobs:
           api_key: ${{secrets.DD_API_KEY}}
           app_key: ${{secrets.DD_APP_KEY}}
           public_ids: 'y25-6kj-a2i, fnb-rh9-rbn, ww6-a6q-v22' 
-        
-
+       
