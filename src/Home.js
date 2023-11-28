@@ -102,7 +102,7 @@ function Home() {
         setForecastWeatherData(forecastData);
       });
     }else{
-      fetch(`https://vtwbunedymingyvoxfwh.supabase.co/rest/v1/previsao_completa?select=*&apikey=${floripaAPIKey}`)
+      fetch(`https://vtwbunedymingyvoxfwh.supabase.co/rest/v1/api_previsao_tempo?select=*&apikey=${floripaAPIKey}`)
       .then(response => response.json())
       .then(json => {
         setCurrentWeatherData({
@@ -124,7 +124,7 @@ function Home() {
         }));
       });
 
-      fetch(`https://vtwbunedymingyvoxfwh.supabase.co/rest/v1/previsao_completa?select=*&apikey=${floripaAPIKey}`)
+      fetch(`https://vtwbunedymingyvoxfwh.supabase.co/rest/v1/api_previsao_tempo?select=*&apikey=${floripaAPIKey}`)
       .then(response => response.json())
       .then(json => {
         
@@ -136,7 +136,7 @@ function Home() {
         };
 
         const forecastData = [];
-        [307, 308, 309, 310].forEach(index => {
+        [28, 29, 30, 31].forEach(index => {
           forecastData.push({
             temperature: parseInt(json[index]['temperatura']),
             humidity: json[index]['umidade'],
