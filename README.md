@@ -20,6 +20,6 @@ https://github.com/GustavoBoscoGit/weather-prediction-portfolio-frontend/wiki
 ## Informações de usabilidade do sistema
 
 Para utilizar o sistema, é preciso apenas pesquisar o nome de uma cidade do Brasil que deseja ver a previsão do tempo que a previsão para essa cidade será apresentada.
-Para visualizar a previsão da cidade de Florianópolis, realizada pelo algoritmo de machine learning é preciso pesquisar por floripa api no campo de busca que os dados serão apresentados.
+Para visualizar a previsão da cidade de Florianópolis, realizada pelo algoritmo de machine learning é preciso pesquisar por `floripa api` no campo de busca que os dados serão apresentados.
 
 Link de acesso do sistema: https://weather-prediction-portfolio-frontend.vercel.app/
