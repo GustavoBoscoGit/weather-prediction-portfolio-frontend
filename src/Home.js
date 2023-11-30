@@ -136,7 +136,7 @@ function Home() {
         };
 
         const forecastData = [];
-        [28, 29, 30, 31].forEach(index => {
+        [37, 38, 39, 40].forEach(index => {
           forecastData.push({
             temperature: parseInt(json[index]['temperatura']),
             humidity: json[index]['umidade'],
