@@ -33,7 +33,7 @@ const WeekCardComponent = ({ dateOfTheDay, dayTemp, dayMaxTemp, dayMinTemp, wind
                 <motion.p className="ventoIcon">
                   <PiWindThin size={30} style={{ background: "transparent" }} />
                 </motion.p>
-                <motion.p className="ventoValor">{windSpeed}</motion.p>
+                <motion.p className="ventoValor">{windSpeed}km/h</motion.p>
                 <motion.p className="ventoText">Vento</motion.p>
               </motion.td>
               <motion.td className="infoHumidadeCard">
@@ -44,7 +44,7 @@ const WeekCardComponent = ({ dateOfTheDay, dayTemp, dayMaxTemp, dayMinTemp, wind
                   />
                 </motion.p>
                 <motion.p className="humidadePorcentagem">
-                  {humidityPercentage}
+                  {humidityPercentage}%
                 </motion.p>
                 <motion.p className="humidadeText">Humidade</motion.p>
               </motion.td>
